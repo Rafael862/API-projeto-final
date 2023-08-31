@@ -9,6 +9,7 @@ const routes = require("./routes");
 
 migrationsRun(); 
 
+
 const app = express(); //aqui faz a execução do express
 
 app.use(express.json()); //informa que o conteúdo vai ser no formato JSON
